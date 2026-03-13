@@ -1,0 +1,22 @@
+{
+  "name": "oaksome-website2",
+  "version": "1.0.0",
+  "description": "Site web portfolio de Benjamin Chenebault, compositeur de musique à l'image",
+  "main": "index.js",
+  "scripts": {
+    "serve": "npx -y serve@latest . -l 8080 --no-clipboard",
+    "open": "npx -y opener-cli@latest http://localhost:8080",
+    "dev": "npm run serve",
+    "test": "npx -y opener-cli@latest http://localhost:8080/test-video.html",
+    "stop": "lsof -ti:8080 | xargs kill -9 2>/dev/null || true",
+    "clean": "rm -rf .cache/ dist/ build/",
+    "dist": "mkdir -p dist && cp -r css js assets index.html dist/"
+  },
+  "keywords": ["portfolio", "music", "composer", "website"],
+  "author": "Benjamin Chenebault",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "playwright": "^1.58.2"
+  }
+}

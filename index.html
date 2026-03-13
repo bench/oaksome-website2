@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Benjamin Chenebault | Compositeur de Musique à l'Image</title>
+    <meta
+      name="description"
+      content="OAKSOME - Benjamin Chenebault, compositeur et producteur musical français. Musique originale pour le cinéma, le documentaire et les médias visuels."
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="navbar" id="navbar">
+      <div class="logo">
+        <a href="#hero">OAKSOME</a>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">À Propos</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content fade-in">
+        <h1>Benjamin Chenebault</h1>
+        <h2>(OAKSOME)</h2>
+        <h2>Compositeur de Musique à l'Image</h2>
+        <p>Acoustique &bull; Électronique &bull; Émotion</p>
+        <div class="hero-cta">
+          <a href="#portfolio" class="btn btn-primary">Mon portfolio</a>
+          <a href="#contact" class="btn btn-secondary">Travaillons ensemble</a>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <a href="#about">
+          <span>&#8595;</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+      <div class="container container-flex">
+        <div class="about-image slide-up">
+          <!-- Replace with best portrait photo from assets/img -->
+          <img
+            src="assets/img/_MG_2211 2 (1).JPG"
+            alt="Benjamin Chenebault - Compositeur"
+          />
+        </div>
+        <div class="about-text slide-up">
+          <h2 class="section-title">Biographie</h2>
+          <p>
+            Benjamin Chenebault est un compositeur et producteur musical
+            français dont l'univers se situe à la frontière de l'acoustique et
+            de l'électronique.
+          </p>
+          <p>
+            Guitariste classique flamenco de formation, pianiste autodidacte et
+            chanteur, son travail s'articule autour de trois axes :
+            <strong>le voyage, l'introspection et l'énergie</strong>. Il compose
+            des paysages sonores sensibles, souvent minimalistes, où la mélodie
+            tient un rôle central.
+          </p>
+          <p>
+            Autonome sur l'ensemble de la chaîne de production, il maîtrise la
+            composition, l'orchestration, la MAO, le mixage et le mastering.
+            Grand lecteur et attiré par la narration et la psychologie des
+            personnages, il cherche avant tout à soutenir l'émotion plutôt qu'à
+            surcharger le récit.
+          </p>
+          <a href="#services" class="link-arrow"
+            >Découvrir mon approche <span>&rarr;</span></a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section portfolio">
+      <div class="container container-full">
+        <h2 class="section-title text-center slide-up">Portfolio</h2>
+        <p class="section-subtitle text-center slide-up">
+          Une sélection de mes travaux pour l'image et projets musicaux.
+        </p>
+
+        <div class="portfolio-filter slide-up">
+          <button class="filter-btn active" data-filter="video">
+            Musique à l'image
+          </button>
+          <button class="filter-btn" data-filter="electro">Electro I</button>
+          <button class="filter-btn" data-filter="piano">EP Piano</button>
+          <button class="filter-btn" data-filter="all">Tout</button>
+        </div>
+        ²
+        <div class="portfolio-grid slide-up">
+          <!-- Musique à l'image - 13 vidéos -->
+          <div class="portfolio-item video" data-category="video">
+            <div class="video-wrapper">
+              <iframe
+                src="https://www.youtube.com/embed/b3hJriVF4PU?rel=0"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <h3>Theme impactant - OpenHeimmer</h3>
+            <p>Musique à l'image</p>
+          </div>
+          <div class="portfolio-item video" data-category="video">
+            <div class="video-wrapper">
+              <iframe
+                src="https://www.youtube.com/embed/0N6L2QnuJjw?rel=0"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <h3>Sonorités orchestrales - Paddington</h3>
+            <p>Musique à l'image</p>
+          </div>
+          <div class="portfolio-item video" data-category="video">
+            <div class="video-wrapper">
+              <iframe
+                src="https://www.youtube.com/embed/LbY2bXMY7dg?rel=0"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <h3>Sonorités éthniques - Morocco</h3>
+            <p>Musique à l'image</p>
+          </div>
+          <div class="portfolio-item video" data-category="video">
+            <div class="video-wrapper">
+              <iframe
+                src="https://www.youtube.com/embed/-x77yuuy_4Y?rel=0"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <h3>Composition chanson - Too High</h3>
+            <p>Vocal + Instru</p>
+          </div>
+          <div class="portfolio-item video" data-category="video">
+            <div class="video-wrapper">
+              <iframe
+                src="https://www.youtube.com/embed/S7kcB7iGwgU?rel=0"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <h3>À la manière d'Hans Zimmer</h3>
+            <p>Captain Marvel</p>
+          </div>
+
+          <div class="portfolio-item video" data-category="video">
+            <div class="video-wrapper">
+              <iframe
+                src="https://www.youtube.com/embed/RS11OMMhGIA?rel=0"
+                frameborder="0"
+              ></iframe>
+            </div>
+            <h3>Trailer avec variations - How it Ends</h3>
+            <p>IndiePop</p>
+          </div>
+
+          <div class="portfolio-item video" data-category="video">
+            <div class="video-wrapper">
+              <iframe
+                src="https://www.youtube.com/embed/5nNKR0LICic?rel=0"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <h3>Theme impactant - Mad Max</h3>
+            <p>Musique à l'image</p>
+          </div>
+
+          <div class="portfolio-item video" data-category="video">
+            <div class="video-wrapper">
+              <iframe
+                src="https://www.youtube.com/embed/XllnPGLulgo?rel=0"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <h3>Sonorités orchestrales - Matrix</h3>
+            <p>Musique à l'image</p>
+          </div>
+          <div class="portfolio-item video" data-category="video">
+            <div class="video-wrapper">
+              <iframe
+                src="https://www.youtube.com/embed/Uq9ElTzaA4A?rel=0"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <h3>Sonorités orchestrales - Assassin's Creed</h3>
+            <p>Musique à l'image</p>
+          </div>
+          <div class="portfolio-item video" data-category="video">
+            <div class="video-wrapper">
+              <iframe
+                src="https://www.youtube.com/embed/xBXV3PzAY8U?rel=0"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <h3>Sonorités éthniques - This is Africa</h3>
+            <p>Musique à l'image</p>
+          </div>
+
+          <div class="portfolio-item video" data-category="video">
+            <div class="video-wrapper">
+              <iframe
+                src="https://www.youtube.com/embed/NRg1JDTSfS8?rel=0"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <h3>Composition chanson - Lonely Man</h3>
+            <p>Vocal + Instru</p>
+          </div>
+          <div class="portfolio-item video" data-category="video">
+            <div class="video-wrapper">
+              <iframe
+                src="https://www.youtube.com/embed/6yECgtqhJfQ?rel=0"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <h3>À la manière de Yann Tiersen</h3>
+            <p>Sony A6700</p>
+          </div>
+          <div class="portfolio-item video" data-category="video">
+            <div class="video-wrapper">
+              <iframe
+                src="https://www.youtube.com/embed/a59ES643WeQ?rel=0"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <h3>À la manière d'Ólafur Arnalds</h3>
+            <p>Forest Gump</p>
+          </div>
+
+          <!-- EP Piano - 5 vidéos -->
+          <div class="portfolio-item piano" data-category="piano">
+            <div class="video-wrapper">
+              <iframe
+                src="https://www.youtube.com/embed/6whf9Vx7JKg?rel=0"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <h3>Janvier</h3>
+            <p>Official Video</p>
+          </div>
+          <div class="portfolio-item piano" data-category="piano">
+            <div class="video-wrapper">
+              <iframe
+                src="https://www.youtube.com/embed/rFivFnUEaqQ?rel=0"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <h3>Février</h3>
+            <p>Official Video</p>
+          </div>
+          <div class="portfolio-item piano" data-category="piano">
+            <div class="video-wrapper">
+              <iframe
+                src="https://www.youtube.com/embed/CnCSJuNSz2E?rel=0"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <h3>Août</h3>
+            <p>Official Video</p>
+          </div>
+          <div class="portfolio-item piano" data-category="piano">
+            <div class="video-wrapper">
+              <iframe
+                src="https://www.youtube.com/embed/5lX9h0F7h80?rel=0"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <h3>Octobre</h3>
+            <p>Official Video</p>
+          </div>
+          <div class="portfolio-item piano" data-category="piano">
+            <div class="video-wrapper">
+              <iframe
+                src="https://www.youtube.com/embed/0RBppxGTEWg?rel=0"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <h3>Novembre</h3>
+            <p>Official Video</p>
+          </div>
+
+          <!-- Electro I - 2 vidéos -->
+          <div class="portfolio-item electro" data-category="electro">
+            <div class="video-wrapper">
+              <iframe
+                src="https://www.youtube.com/embed/tNbBipVum5M?rel=0"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <h3>Ulan-Ude</h3>
+            <p>Official Video</p>
+          </div>
+          <div class="portfolio-item electro" data-category="electro">
+            <div class="video-wrapper">
+              <iframe
+                src="https://www.youtube.com/embed/tDyfDOEVciU?rel=0"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <h3>Oha Piña</h3>
+            <p>Official Video</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services / Methodology Section -->
+    <section id="services" class="section services">
+      <div class="container container-full">
+        <h2 class="section-title text-center slide-up">Méthode & Services</h2>
+        <p class="section-subtitle text-center slide-up">
+          Chaque projet débute par une analyse approfondie pour que la musique
+          serve pleinement votre projet.
+        </p>
+
+        <div class="services-grid">
+          <div class="service-card slide-up">
+            <div class="service-number">01</div>
+            <h3>Échange & Compréhension</h3>
+            <p>
+              Discussion sur la vision du film (si musique à l'image), les
+              références, le public visé et le cadre de production pour aligner
+              les attentes.
+            </p>
+          </div>
+          <div class="service-card slide-up">
+            <div class="service-number">02</div>
+            <h3>Direction Artistique</h3>
+            <p>
+              Définition du langage musical, des couleurs instrumentales et de
+              l'identité sonore cohérente pour le projet.
+            </p>
+          </div>
+          <div class="service-card slide-up">
+            <div class="service-number">03</div>
+            <h3>Spotting Session</h3>
+            <p>
+              Repérage précis définissant la fonction dramaturgique de la
+              musique et préservant l'équilibre du récit.
+            </p>
+          </div>
+          <div class="service-card slide-up">
+            <div class="service-number">04</div>
+            <h3>Production & Orchestration</h3>
+            <p>
+              Composition par scène, orchestration hybride et dialogue
+              artistique continu avec envoi rapide de maquettes.
+            </p>
+          </div>
+          <div class="service-card slide-up">
+            <div class="service-number">05</div>
+            <h3>Mixage & Mastering</h3>
+            <p>
+              Finalisation audio intégrant précisément dialogues et sound design
+              dans le respect des standards de diffusion.
+            </p>
+          </div>
+          <div class="service-card slide-up">
+            <div class="service-number">06</div>
+            <h3>Livraison</h3>
+            <p>
+              Fourniture du mix final, stems séparés ou versions alternatives
+              adaptées aux besoins du montage.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section with Tally.so Integration -->
+    <section id="contact" class="section contact">
+      <div class="container container-narrow">
+        <h2 class="section-title text-center slide-up">Travaillons ensemble</h2>
+        <p class="section-subtitle text-center slide-up">
+          Un projet en tête ? Je serais ravi d'en discuter avec vous.
+        </p>
+
+        <iframe
+          data-tally-src="https://tally.so/embed/1AK8yl?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+          loading="lazy"
+          width="100%"
+          height="857"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"
+          title="OAKSOME - Discutons !"
+        ></iframe>
+        <script>
+          var d = document,
+            w = "https://tally.so/widgets/embed.js",
+            v = function () {
+              "undefined" != typeof Tally
+                ? Tally.loadEmbeds()
+                : d
+                    .querySelectorAll("iframe[data-tally-src]:not([src])")
+                    .forEach(function (e) {
+                      e.src = e.dataset.tallySrc;
+                    });
+            };
+          if ("undefined" != typeof Tally) v();
+          else if (d.querySelector('script[src="' + w + '"]') == null) {
+            var s = d.createElement("script");
+            ((s.src = w),
+              (s.onload = v),
+              (s.onerror = v),
+              d.body.appendChild(s));
+          }
+        </script>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">OAKSOME</div>
+          <div class="social-links">
+            <a
+              href="https://soundcloud.com/oaksome/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >SoundCloud</a
+            >
+            <a
+              href="https://open.spotify.com/intl-fr/artist/1ErH1vS2Yfau9sWXFfW6po"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Spotify</a
+            >
+            <a
+              href="https://www.instagram.com/oaksomemusic"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Instagram</a
+            >
+          </div>
+        </div>
+        <div class="footer-bottom">
+          &copy; <span id="year"></span> Benjamin Chenebault. Tous droits
+          réservés. SACEM: 644389.
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <!-- Tally Form Script -->
+    <script async src="https://tally.so/widgets/embed.js"></script>
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
