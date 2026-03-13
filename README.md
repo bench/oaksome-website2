@@ -99,4 +99,4 @@ Le site est constitué de fichiers statiques et peut être déployé sur :
 
 ## 📄 Licence
 
-© 2025 Benjamin Chenebault. Tous droits réservés. SACEM: 644389.
+© 2026 Benjamin Chenebault. Tous droits réservés. SACEM: 644389.
