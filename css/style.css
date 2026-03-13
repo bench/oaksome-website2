@@ -8,18 +8,18 @@
     --bg-surface-hover: #262626;
     --text-primary: #f0f0f0;
     --text-secondary: #a0a0a0;
-    --accent-color: #d4af37; /* Cinematic Gold */
-    --accent-hover: #f5cc43;
-    
+    --accent-color: #858585; /* Cinematic Gold */
+    --accent-hover: #585858;
+
     /* Typography */
     --font-heading: 'Cinzel', serif;
     --font-body: 'Inter', sans-serif;
-    
+
     /* Spacing */
     --section-padding: 100px 0;
     --container-width: 1200px;
     --container-narrow: 800px;
-    
+
     /* Transitions */
     --transition-fast: 0.2s ease;
     --transition-medium: 0.4s ease-out;
@@ -674,7 +674,7 @@ footer {
         display: flex;
         z-index: 1001;
     }
-    
+
     .nav-links {
         position: fixed;
         top: 0;
@@ -687,43 +687,43 @@ footer {
         align-items: center;
         transition: right var(--transition-medium);
     }
-    
+
     .nav-links.active {
         right: 0;
     }
-    
+
     .nav-links li {
         margin: 20px 0;
     }
-    
+
     .nav-links a {
         font-size: 1.5rem;
     }
-    
+
     .hamburger.active .line:nth-child(1) {
         transform: translateY(8px) rotate(45deg);
     }
-    
+
     .hamburger.active .line:nth-child(2) {
         opacity: 0;
     }
-    
+
     .hamburger.active .line:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
-    
+
     .hero h1 {
         font-size: 2.5rem;
     }
-    
+
     .hero-cta {
         flex-direction: column;
     }
-    
+
     .section {
         padding: 60px 0;
     }
-    
+
     .footer-content {
         flex-direction: column;
         text-align: center;
